@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      property="og:image"
+      content="https://firebasestorage.googleapis.com/v0/b/burgerlog-2.appspot.com/o/burger.jpg?alt=media&token=93772531-47fc-4f6c-a8bc-58a6d28ff07d"
+    />
+    <meta property="og:title" content="Test ButgerLog Title Meta Property " />
+    <!-- <meta property="og:image" content="https://example.com/images/image.jpg"> -->
+    <meta property="og:description" content="HomePage" />
+    <!-- <meta property="og:url" content="https://example.com/page.html"> -->
 
-<head>
-  <meta charset="utf-8" />
-  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="theme-color" content="#000000" />
-
-  <meta property="og:title" content="Test ButgerLog Title Meta Property ">
-  <!-- <meta property="og:image" content="https://example.com/images/image.jpg"> -->
-  <meta property="og:description" content="This is just an example page.">
-  <!-- <meta property="og:url" content="https://example.com/page.html"> -->
-
-  <!--
+    <!--
       manifest.json provides metadata used when your web app is added to the
       homescreen on Android. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-  <!--
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
       Only files inside the `public` folder can be referenced from the HTML.
@@ -27,27 +32,27 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
 
-  <script src="https://www.gstatic.com/firebasejs/5.8.0/firebase.js"></script>
-  <script>
-    // Initialize Firebase
-    var config = {
-      apiKey: "AIzaSyAcJ0F-sR63FvY19vU-1VgXzKQG3ocXuZ4",
-      authDomain: "burgerlog-2.firebaseapp.com",
-      databaseURL: "https://burgerlog-2.firebaseio.com",
-      projectId: "burgerlog-2",
-      storageBucket: "burgerlog-2.appspot.com",
-      messagingSenderId: "993946413895"
-    };
-    firebase.initializeApp(config);
-  </script>
+    <script src="https://www.gstatic.com/firebasejs/5.8.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyAcJ0F-sR63FvY19vU-1VgXzKQG3ocXuZ4",
+        authDomain: "burgerlog-2.firebaseapp.com",
+        databaseURL: "https://burgerlog-2.firebaseio.com",
+        projectId: "burgerlog-2",
+        storageBucket: "burgerlog-2.appspot.com",
+        messagingSenderId: "993946413895"
+      };
+      firebase.initializeApp(config);
+    </script>
 
-  <title>React App</title>
-</head>
+    <title>Welcome to BurgerLog-2</title>
+  </head>
 
-<body>
-  <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div>
-  <!--
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
 
@@ -57,6 +62,5 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-</body>
-
+  </body>
 </html>
